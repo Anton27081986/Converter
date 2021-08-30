@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="resources/css/reset.css">
+    <link rel="stylesheet" href="resources/css/index.css">
+</head>
+<body>
+    
+    <div id="time"><br><p class="time_p" style="font-size: 30px;"></p></div>
+
+    <form class="form">
+        <div id="input" > <input type="text" class="enterCurrency" placeholder="Введите сумму:" name="inputbox" value=""> <br></div>
+        <p class="text">ИЗ</p>
+        <select class="select_one" size="5" >
+            <option id="fromUSD">USD</option>
+            <option id="fromEUR">EUR</option>
+            <option id="fromGBP">GBP</option>
+            <option id="fromRUB">RUB</option>
+            <option id="fromBYN">BYN</option>
+        </select>
+        <p>В</p>
+        <select class="select_two" size="5" >
+            <option id="toUSD">USD</option>
+            <option id="toEUR">EUR</option>
+            <option id="toGBP">GBP</option>
+            <option id="toRUB">RUB</option>
+            <option id="toBYN">BYN</option>
+        </select>
+        <br>
+    </form>
+    <div><button class="start-convert">Convert</button></div>
+    <div class="result">
+        <div> <input class="resultCurrency" type="text" placeholder="РЕЗУЛЬТАТ" name="inputbox" value=""></div>
+    </div>
+    
+    
+    <script type="module" src="resources/js/index.js"></script>
+</body>
+</html>
